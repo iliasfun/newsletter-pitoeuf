@@ -1,0 +1,401 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <title>Newsletter Pitoeuf</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="telephone=no" name="format-detection" />
+    
+    <!-- PRE-HEADER -->
+    <div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+        Découvrez nos 50 promotions de la semaine : Tarte aux poires, Joue de porc et bien plus encore !
+    </div>
+
+    <!--[if (mso 16)]>
+    <style type="text/css">
+    a {text-decoration: none;}
+    </style>
+    <![endif]-->
+    <style type="text/css">
+        html, body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+            background-color: #F2F2F2;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        * { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; }
+        img { -ms-interpolation-mode: bicubic; }
+        a { text-decoration: none; }
+
+        /* CARTES PRODUITS */
+        .product-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            height: 100%;
+            min-height: 320px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .product-card > a {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 100%;
+            text-decoration: none;
+            color: #333333;
+            padding: 15px 10px;
+            box-sizing: border-box;
+        }
+        
+        /* BADGE PROMO FLOTTANT */
+        .promo-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #E74C3C;
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            z-index: 2;
+        }
+
+        .product-title-badge {
+            font-family: 'Helvetica', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.3;
+            color: #333333;
+            text-align: center;
+            height: 40px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            margin-bottom: 10px;
+        }
+
+        .product-card img {
+            display: block;
+            margin: 0 auto;
+            max-height: 130px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        .product-info-bottom {
+            margin-top: auto;
+            text-align: center;
+            width: 100%;
+            padding-top: 10px;
+        }
+
+        /* PRIX BARRE E-COMMERCE */
+        .price-container {
+            margin-bottom: 15px;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999999;
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .new-price {
+            color: #F9A600;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #F9A600;
+            color: #ffffff !important;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 14px;
+            text-align: center;
+            border: 1px solid #F9A600;
+        }
+
+        @media screen and (max-width: 600px) {
+            .wrapper { width: 100% !important; max-width: 100% !important; }
+            .header-logo-img { width: 100% !important; max-width: 100% !important; }
+            .main-product-row { display: block !important; width: 100% !important; }
+            .main-product { display: block !important; width: 100% !important; padding: 0 15px 20px 15px !important; box-sizing: border-box !important; }
+            .product-card { height: auto !important; min-height: auto !important; }
+            .product-title-badge { height: auto !important; }
+            .cta-button { display: block !important; width: auto !important; margin: 0 30px; }
+            .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
+            .advantage-col { display: block !important; width: 100% !important; margin-bottom: 15px !important; }
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0 !important; background-color: #F2F2F2;">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width:100%; background-color:#F2F2F2; table-layout: fixed;">
+            <tbody>
+                <tr>
+                    <td align="center" style="padding:0;" valign="top">
+
+                        <!-- HEADER -->
+                        <table border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; background:#F2F2F2; margin: 0 auto;" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding: 10px 0;">
+                                        <p style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #999; margin:0;">
+                                            Si ce message ne s'affiche pas correctement, <a href="https://pitoeuf.ch/" style="color:#666; text-decoration: underline;">cliquez ici</a>.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 0 20px 0;">
+                                        <div align="center">
+                                            <a href="https://pitoeuf.ch/" target="_blank">
+                                                <img alt="Pitoeuf SA" border="0" class="header-logo-img" src="https://pitoeuf.ch/wp-content/uploads/2022/05/variante_5.png" style="width: 100%; max-width: 600px; height: auto; display:block;" />
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- CONTENU PRINCIPAL -->
+                        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="width:600px; max-width: 600px; background:white; margin: 0 auto; border-radius: 8px; overflow:hidden;" width="600">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:0;" valign="top">
+
+                                        <!-- TITRE -->
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding:0 20px;" valign="top">
+                                                        <div style="text-align: center; margin-top: 30px;">
+                                                            <h2 style="margin:0; padding-bottom:10px; font-family:'Helvetica', Arial, sans-serif; color:#333; text-transform:uppercase; border-bottom:3px solid #F9A600; display:inline-block;">
+                                                                Actions Spéciales
+                                                            </h2>
+                                                        </div>
+                                                        <p style="font-family:'Helvetica', Arial, sans-serif; color:#585858; font-size: 16px; text-align:center; margin-top:15px; margin-bottom: 30px;">
+                                                            Valables du <strong>17.02</strong> au <strong>23.02.2026</strong>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- LIGNE 1 PRODUITS -->
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
+                                            <tbody>
+                                                <tr class="main-product-row">
+                                                    <!-- Produit 1 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-15%</div>
+                                                            <a href="https://pitoeuf.ch/produit/tarte-aux-poires-predecoupee/">
+                                                                <img alt="Tarte aux poires" src="https://pitoeuf.ch/wp-content/uploads/2022/10/1559.jpg?v=1665125316" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Tarte aux poires prédécoupée</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 88.10</span><br>
+                                                                        <span class="new-price">CHF 74.90 <span style="font-size:12px; font-weight:normal; color:#999;">/ctn</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <!-- Produit 2 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-12%</div>
+                                                            <a href="https://pitoeuf.ch/produit/joue-de-porc/">
+                                                                <img alt="Joue de porc" src="https://pitoeuf.ch/wp-content/uploads/2022/10/2413.jpg?v=1665131091" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Joue de porc<br>&nbsp;</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 12.50</span><br>
+                                                                        <span class="new-price">CHF 11.00 <span style="font-size:12px; font-weight:normal; color:#999;">/kg</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <!-- Produit 3 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-16%</div>
+                                                            <a href="https://pitoeuf.ch/produit/hilcona-tortelloni-gruyere-aop/">
+                                                                <img alt="Tortelloni" src="https://pitoeuf.ch/wp-content/uploads/2023/03/3777.jpg?v=1678178146" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Tortelloni Gruyère AOP</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 13.30</span><br>
+                                                                        <span class="new-price">CHF 11.20 <span style="font-size:12px; font-weight:normal; color:#999;">/kg</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- LIGNE 2 PRODUITS -->
+                                                <tr class="main-product-row">
+                                                    <!-- Produit 4 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-14%</div>
+                                                            <a href="https://pitoeuf.ch/produit/courge-en-cube-suisse-garantie/">
+                                                                <img alt="Courge" src="https://pitoeuf.ch/wp-content/uploads/2022/10/4818.jpg?v=1665141529" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Courge en cube "Suisse"</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 5.90</span><br>
+                                                                        <span class="new-price">CHF 5.10 <span style="font-size:12px; font-weight:normal; color:#999;">/kg</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <!-- Produit 5 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-19%</div>
+                                                            <a href="https://pitoeuf.ch/produit/tranches-de-saumon-cru-premium-salmo-salarasc/">
+                                                                <img alt="Saumon" src="https://pitoeuf.ch/wp-content/uploads/2022/10/628.jpg?v=1665119375" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Saumon cru "Premium"</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 24.40</span><br>
+                                                                        <span class="new-price">CHF 19.80 <span style="font-size:12px; font-weight:normal; color:#999;">/kg</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <!-- Produit 6 -->
+                                                    <td align="center" class="main-product" style="padding: 10px;" valign="top" width="33.33%">
+                                                        <div class="product-card">
+                                                            <div class="promo-badge">-10%</div>
+                                                            <a href="https://pitoeuf.ch/produit/escalope-de-dinde-70-a-90-gr/">
+                                                                <img alt="Dinde" src="https://pitoeuf.ch/wp-content/uploads/2023/10/2954.jpg?v=1698211130" />
+                                                                <div class="product-info-bottom">
+                                                                    <div class="product-title-badge">Escalope de dinde</div>
+                                                                    <div class="price-container">
+                                                                        <span class="old-price">CHF 16.50</span><br>
+                                                                        <span class="new-price">CHF 14.85 <span style="font-size:12px; font-weight:normal; color:#999;">/kg</span></span>
+                                                                    </div>
+                                                                    <span class="cta-button">Ajouter</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- BLOC TEASER (Remplace les listes) -->
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top: 20px;" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="mobile-padding" style="padding: 20px 30px 40px 30px; text-align: center;">
+                                                        <div style="background-color: #fcf8e3; border: 1px dashed #F9A600; border-radius: 8px; padding: 30px 20px;">
+                                                            <h3 style="font-family:'Helvetica', Arial, sans-serif; color:#333; margin:0 0 10px 0; font-size: 20px;">
+                                                                Ce n'est pas tout ! 🎉
+                                                            </h3>
+                                                            <p style="font-family:'Helvetica', Arial, sans-serif; color:#555; font-size: 16px; margin:0 0 20px 0; line-height: 1.5;">
+                                                                Nous avons plus de <strong>45 autres produits</strong> en promotion cette semaine. Venez faire de bonnes affaires sur notre shop !
+                                                            </p>
+                                                            <a href="https://pitoeuf.ch/etiquette-produit/promotions/"
+                                                                style="display:inline-block; background-color: #333; color:#FFFFFF; border-radius:50px; font-weight:bold; text-decoration:none; font-size:16px; padding:12px 30px; font-family:'Helvetica', Arial, sans-serif;">
+                                                                Voir toutes les promotions
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- BLOC AVANTAGES / REASSURANCE (Nouveau) -->
+                        <table border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 20px auto 0 auto;" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td class="mobile-padding" style="padding: 20px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td class="advantage-col" width="33%" align="center" style="padding: 10px; font-family:'Helvetica', Arial, sans-serif; color:#555;">
+                                                    <div style="font-size: 24px; margin-bottom: 5px;">👤</div>
+                                                    <strong style="font-size: 14px; color:#333;">Nouveau client ?</strong><br>
+                                                    <a href="https://pitoeuf.ch/mon-compte/" style="font-size: 12px; color:#F9A600; text-decoration: underline;">Créez votre compte</a>
+                                                </td>
+                                                <td class="advantage-col" width="33%" align="center" style="padding: 10px; font-family:'Helvetica', Arial, sans-serif; color:#555; border-left: 1px solid #ddd; border-right: 1px solid #ddd;">
+                                                    <div style="font-size: 24px; margin-bottom: 5px;">🚚</div>
+                                                    <strong style="font-size: 14px; color:#333;">Livraison pro</strong><br>
+                                                    <span style="font-size: 12px;">Directement chez vous</span>
+                                                </td>
+                                                <td class="advantage-col" width="33%" align="center" style="padding: 10px; font-family:'Helvetica', Arial, sans-serif; color:#555;">
+                                                    <div style="font-size: 24px; margin-bottom: 5px;">💳</div>
+                                                    <strong style="font-size: 14px; color:#333;">Paiement en ligne</strong><br>
+                                                    <span style="font-size: 12px;">Simple et sécurisé</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- FOOTER TECHNIQUE -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin-top:10px;">
+                             <tbody>
+                                 <tr>
+                                     <td align="center" style="padding: 20px; color: #888; font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.5;">
+                                         <strong>Pitoeuf SA</strong><br>
+                                         Route d'Ecône 116 | 1907 Saxon | Suisse<br>
+                                         <a href="mailto:info@pitoeuf.ch" style="color:#F9A600; text-decoration:none;">info@pitoeuf.ch</a>
+                                         <br><br>
+                                         Vous recevez cet email car vous êtes inscrit à la newsletter Pitoeuf.<br>
+                                         <a href="*|UNSUB|*" style="color:#999; text-decoration: underline;">Se désabonner de la liste</a>
+                                     </td>
+                                 </tr>
+                             </tbody>
+                        </table>
+                        
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr><td style="padding: 20px;"></td></tr>
+                            </tbody>
+                        </table>
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
